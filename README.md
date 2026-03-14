@@ -1,1 +1,1 @@
-# upfrica-assistant-widge
+# chat-widget
