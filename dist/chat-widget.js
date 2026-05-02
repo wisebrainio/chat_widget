@@ -11,7 +11,7 @@
   // Read config from the current <script> tag
   const SCRIPT = document.currentScript;
   const BRAND = (SCRIPT?.dataset?.brand || "Upfrica assistant").trim();
-  const ENDPOINT = (SCRIPT?.dataset?.endpoint || "https://n8n.wisebrain.io/webhook/ai/").trim();
+  const ENDPOINT = (SCRIPT?.dataset?.endpoint || "https://api.wisebrain.io/api/chat/message/").trim();
   const API_KEY = (SCRIPT?.dataset?.apiKey || "").trim(); // if empty, no header sent
   const SESSION_STORAGE_KEY = "upfrica_chat_session_id";
 
